@@ -1,288 +1,245 @@
-/* General Styling for Header */
 .resume-header {
-    background-color: #a19254; /* Gold-like background color */
-    color: #000; /* Black text color */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Add spacing inside the header */
-    border: 2px solid #000066; /* Blue border */
-    max-width: 800px; /* Limit width to center it better */
-    margin: 20px auto; /* Center horizontally on the page */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
-    font-family: 'Times New Roman', Times, serif; /* Match font across the header */
+    background-color: #a19254; 
+    color: #000; 
+    text-align: center; 
+    padding: 20px; 
+    border: 2px solid #000066; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    font-family: 'Times New Roman', Times, serif; 
 }
 
-/* Styling for Name */
 .resume-header h1 {
-    font-size: 48px; /* Larger font size for your name */
-    font-weight: normal; /* Remove bold effect to match resume */
-    margin-bottom: 5px; /* Minimal space below the name */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    font-size: 48px; 
+    font-weight: normal; 
+    margin-bottom: 5px; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
 }
 
-/* Styling for Contact Details */
 .resume-header p {
-    font-size: 1.1em; /* Font size for details */
-    font-weight: bold; /* Keep details bold */
-    margin: 0; /* Remove default margins */
-    line-height: 1.2; /* Reduce spacing between lines */
+    font-size: 1.1em; 
+    font-weight: bold; 
+    margin: 0; 
+    line-height: 1.2; 
 }
 
-/* Professional Summary Section */
 .professional-summary {
-    text-align: center; /* Center-align the section */
-    margin: 30px auto; /* Add vertical spacing and center it horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Heading Styling */
 .professional-summary h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black color for traditional resume style */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline Styling */
 .professional-summary hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Underline width relative to the section */
-    margin: 0 auto 20px auto; /* Center the underline and add space below it */
+    border: none; 
+    height: 2px; 
+    background-color: #000; 
+    width: 50%; 
+    margin: 0 auto 20px auto; 
 }
 
-/* Paragraph Styling */
 .professional-summary p {
-    font-size: 16px; /* Larger, readable text size */
-    line-height: 1.8; /* Space between lines for readability */
-    text-align: left; /* Left-align the paragraph text */
-    margin: 0 auto; /* Center-align the block but keep text left-aligned */
-    max-width: 800px; /* Constrain paragraph width for readability */
+    font-size: 16px; 
+    line-height: 1.8; 
+    text-align: left; 
+    margin: 0 auto; 
+    max-width: 800px; 
 }
 
-/* Education Section */
 .education {
-    text-align: center; /* Center-align the section */
-    margin: 30px auto; /* Add vertical spacing and center it horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Heading Styling */
 .education h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black color for traditional resume style */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline Styling */
 .education hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Underline width relative to the section */
-    margin: 0 auto 20px auto; /* Center the underline and add space below it */
+    border: none; 
+    height: 2px; 
+    background-color: #000; 
+    width: 50%; 
+    margin: 0 auto 20px auto; 
 }
 
-/* Paragraph Styling */
 .education p {
-    font-size: 16px; /* Larger, readable text size */
-    line-height: 1.8; /* Space between lines for readability */
-    text-align: left; /* Left-align the paragraph text */
-    margin: 0 auto; /* Center-align the block but keep text left-aligned */
-    max-width: 800px; /* Constrain paragraph width for readability */
+    font-size: 16px; 
+    line-height: 1.8; 
+    text-align: left; 
+    margin: 0 auto; 
+    max-width: 800px; 
 }
 
-/* Work Experience Section */
 .work-experience {
-    text-align: center; /* Center-align the section */
-    margin: 30px auto; /* Add vertical spacing and center it horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Heading Styling */
 .work-experience h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black color for traditional resume style */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline Styling */
 .work-experience hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Underline width relative to the section */
-    margin: 0 auto 20px auto; /* Center the underline and add space below it */
+    border: none; 
+    height: 2px; 
+    background-color: #000; 
+    width: 50%; 
+    margin: 0 auto 20px auto; 
 }
 
-/* Paragraph Styling */
 .work-experience p {
-    font-size: 16px; /* Larger, readable text size */
-    line-height: 1.8; /* Space between lines for readability */
-    text-align: left; /* Left-align the paragraph text */
-    margin: 0 auto 15px auto; /* Center-align the block but keep text left-aligned */
-    max-width: 800px; /* Constrain paragraph width for readability */
+    font-size: 16px; 
+    line-height: 1.8; 
+    text-align: left; 
+    margin: 0 auto 15px auto; 
+    max-width: 800px; 
 }
 
-/* List Styling */
 .work-experience ul {
-    list-style-type: disc; /* Use bullets for list items */
-    margin-left: 20px; /* Add spacing from the left */
-    font-size: 16px; /* Match paragraph text size */
-    text-align: left; /* Ensure lists are left-aligned */
-    line-height: 1.8; /* Add space between list items */
+    list-style-type: disc; 
+    margin-left: 20px; 
+    font-size: 16px; 
+    text-align: left; 
+    line-height: 1.8; 
 }
 
 .work-experience li {
-    margin-bottom: 10px; /* Add space between list items */
+    margin-bottom: 10px; 
 }
 
-/* Projects Section */
 .projects {
-    text-align: center; /* Center-align the section heading */
-    margin: 30px auto; /* Add vertical spacing and center horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Professional font style */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Section Heading Styling */
 .projects h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black for a clean, professional look */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline for Heading */
 .projects hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Constrain underline width */
-    margin: 0 auto 20px auto; /* Center underline with spacing below */
+    border: none; 
+    height: 2px; 
+    background-color: #000; 
+    width: 50%; 
+    margin: 0 auto 20px auto; 
 }
 
-/* Project Titles */
 .projects b {
-    font-size: 16px; /* Maintain readable font size */
-    font-weight: bold; /* Bold titles for emphasis */
-    display: block; /* Ensure titles are on their own line */
-    margin-top: 15px; /* Add spacing above titles */
-    text-align: left; /* Left-align project titles */
+    font-size: 16px; 
+    font-weight: bold; 
+    display: block; 
+    margin-top: 15px; 
+    text-align: left; 
 }
 
-/* Bullet Point List Styling */
 .projects ul {
-    list-style-type: disc; /* Use standard bullets for clarity */
-    margin-left: 20px; /* Reduced indentation to align with other sections */
-    font-size: 16px; /* Match paragraph text size */
-    line-height: 1.8; /* Improve readability with spacing between lines */
-    text-align: left; /* Left-align for professional alignment */
+    list-style-type: disc; 
+    margin-left: 20px; 
+    font-size: 16px; 
+    line-height: 1.8; 
+    text-align: left; 
 }
 
-/* Individual List Items */
 .projects ul li {
-    margin-bottom: 10px; /* Add space between bullet points */
+    margin-bottom: 10px; 
 }
 
-
-
-/* Certifications Section */
 .certifications {
-    text-align: center; /* Center-align the section heading */
-    margin: 30px auto; /* Add vertical spacing and center it horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Heading Styling */
 .certifications h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black color for traditional resume style */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline Styling */
 .certifications hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Underline width relative to the section */
-    margin: 0 auto 20px auto; /* Center the underline and add space below it */
+    border: none; 
+    height: 2px; 
+    background-color: #000; 
+    width: 50%; 
+    margin: 0 auto 20px auto; 
 }
 
-/* List Styling */
 .certifications ul {
-    list-style-type: disc; /* Keep bullets as discs */
-    padding: 0; /* Remove default padding */
-    margin: 0 auto; /* Center the list */
-    display: inline-block; /* Treat the list as an inline-block element to center it */
-    text-align: left; /* Align text within the centered block */
-    font-size: 16px; /* Match paragraph text size */
-    line-height: 1.8; /* Add space between list items */
+    list-style-type: disc; 
+    padding: 0; 
+    margin: 0 auto; 
+    display: inline-block; 
+    text-align: left; 
+    font-size: 16px; 
+    line-height: 1.8; 
 }
 
-/* List Items */
 .certifications ul li {
-    margin-bottom: 10px; /* Add space between each certification */
+    margin-bottom: 10px; 
 }
 
-/* Technical Skills Section */
 .technical-skills {
-    text-align: center; /* Center-align the section heading */
-    margin: 30px auto; /* Add vertical spacing and center it horizontally */
-    max-width: 800px; /* Constrain width for readability */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: center; 
+    margin: 30px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Heading Styling */
 .technical-skills h3 {
-    font-size: 20px; /* Larger font size for prominence */
-    font-weight: bold; /* Bold for section headings */
-    margin-bottom: 10px; /* Space between the heading and underline */
-    color: #000; /* Black color for traditional resume style */
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000; 
 }
 
-/* Custom Underline Styling */
 .technical-skills hr {
-    border: none; /* Remove default border style */
-    height: 2px; /* Thickness of the underline */
-    background-color: #000; /* Black underline */
-    width: 50%; /* Underline width relative to the section */
-    margin: 0 auto 20px auto; /* Center the underline and add space below it */
+    border: none; 
+    height: 2px; 
+    background-color: #000;
+    width: 50%;
+    margin: 0 auto 20px auto; 
 }
 
-/* List Styling */
 .technical-skills ul {
-    list-style-type: disc; /* Use bullets for list items */
-    padding: 0; /* Remove default padding */
-    margin: 0 auto; /* Center-align the list */
-    display: inline-block; /* Treat the list as an inline-block element to center it */
-    text-align: left; /* Align text within the centered block */
-    font-size: 16px; /* Match paragraph text size */
-    line-height: 1.8; /* Add space between list items */
+    list-style-type: disc; 
+    padding: 0; 
+    margin: 0 auto; 
+    display: inline-block; 
+    text-align: left; 
+    font-size: 16px; 
+    line-height: 1.8; 
 }
 
-/* List Items */
 .technical-skills ul li {
-    margin-bottom: 10px; /* Add space between each skill */
+    margin-bottom: 10px; 
 }
 
-/* Bold Section Names */
 .technical-skills ul li strong {
-    font-weight: bold; /* Make category titles bold */
+    font-weight: bold; 
 }
-
-
-
-
-
-
-
-
