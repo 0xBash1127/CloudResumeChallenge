@@ -12,7 +12,7 @@ This project not only demonstrates technical proficiency but also integrates cri
 ## ✅ Challenge Tasks
 Below is the list of task for the **Cloud Resume Challenge**, categorized into different stages. I'll update the list as I complete each milestone.
 ### 1. Frontend Development
-- [ ] Create a resume using **HTML** and **CSS**
+- [x] Create a resume using **HTML** and **CSS**
 - [ ] Add interactive features using **JavaScript**.
 - [ ] Test the website for compatibility across devices (mobile, tablet, desktop).
 ### 2. AWS Hosting
